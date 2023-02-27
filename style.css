@@ -96,6 +96,38 @@ button:hover
     transition: 0.5s;
 }
 
+.back-on-top-button 
+{
+    text-align: center;
+    margin: 0 0 10px 10px;
+}
+
+.back-on-top-button a
+{
+    color: white;
+    font-size: 2rem;
+    background: rgb(51, 51, 51);
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.back-on-top-button a:hover
+{
+    background: black;
+    transition: 0.7s;
+}
+
+footer
+{
+    text-align: center;
+}
+
+footer p
+{
+    color: white;
+}
+
 @media(min-width: 576px)
 {
     #code-solutions-container, .row
@@ -109,7 +141,8 @@ button:hover
         flex-basis: 100%;
     }
 
-    #Website-header, #code-solutions-container
+    #Website-header, #code-solutions-container,
+    #back-on-Top, footer
     {
         margin: 0 auto;
         max-width: 900px;

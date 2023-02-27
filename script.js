@@ -144,3 +144,8 @@ function showStrSymmetryPointCode()
 {
     open('https://github.com/ImaniKadiva7/My-Codility-Problem-code-solutions/blob/main/StrSymmetryPoint.txt');
 }
+
+function showFirstDuplicateCode()
+{
+    open('https://raw.githubusercontent.com/ImaniKadiva7/My-Codility-Problem-code-solutions/main/firstDuplicate.txt');
+}
