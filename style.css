@@ -7,7 +7,7 @@
 
 body
 {
-    background-color: #4164ab;/*#42ad9b;#ecf2f8;*/
+    background-color: #587291;/*#4164ab; #42ad9b;#ecf2f8;*/
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
@@ -37,7 +37,7 @@ body
 
 .container-bg-color
 {
-    background-color: lightblue;
+    background-color: #fff;/*lightblue;*/
 }
 
 .content
@@ -84,15 +84,16 @@ button
 {
     padding: 10px;
     border-radius: 5px;
-    background-color: #027a0e;
+    background-color: #587291;/*#027a0e;*/
     color: white;
+    font-size: 0.9rem;
 }
 
 button:hover
 {
     cursor: pointer;
     opacity: 0.8;
-    color: yellow;
+    background: black;
     transition: 0.5s;
 }
 
@@ -126,6 +127,7 @@ footer
 footer p
 {
     color: white;
+    padding-bottom: 5px;
 }
 
 @media(min-width: 576px)
